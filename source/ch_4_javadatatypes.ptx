@@ -4,8 +4,6 @@
 <chapter xml:id="java-data-types">
     <title>Java Data Types</title>
 
-    <introduction>
-    </introduction>
 
     <section xml:id="numeric">
         <title>Numeric</title>
@@ -16,7 +14,7 @@
                 Integers are objects, floating point numbers are objects, lists are objects, everything.
                 In Java that is not the case.
                 In Java, some of the most basic data types like integers and floating point numbers are not objects.
-                The benefit of having these primitive data types be non-objects is that operations on the primitives are fast.
+                The benefit of having these <term> primitive data types</term> <idx> primitive data types </idx> be non-objects is that operations on the primitives are fast.
                 The problem is that it became difficult for programmers to combine objects and non-objects in the way that we do in Python.
                 So, eventually all the non-object primitives ended up with Objectified versions.
             </p>
@@ -413,7 +411,7 @@ Lets review what is happening in this little program. First, we create a list an
         </p>
 
         <p>
-To write the Java version of this program we will have to introduce several new Java concepts. First, you will see the Java equivalent of a list, called an <c>ArrayList.</c> Next, you will see three different kinds of loops used in Java. Two of the loops we will use are going to be very familiar, the third one is different from what you are used to in Python but is easy when you understand the syntax:
+To write the Java version of this program we will have to introduce several new Java concepts. First, you will see the Java equivalent of a list, called an <c>ArrayList.</c> <idx> ArrayList </idx> Next, you will see three different kinds of loops used in Java. Two of the loops we will use are going to be very familiar, the third one is different from what you are used to in Python but is easy when you understand the syntax:
         </p>
 
         <p>
@@ -634,7 +632,7 @@ public class HistoArray {
         <title>Dictionary</title>
 
         <p>
- Just as Python provides the dictionary when we want to have easy access to key-value pairs, Java also provides us a similar mechanism. Rather than the dictionary terminology, Java calls these objects Maps. Java provides two different implementations of a map, one is called the <c>TreeMap</c> and the other is called a <c>HashMap</c>. As you might guess the <c>TreeMap</c> uses a balanced binary tree behind the scenes, and the <c>HashMap</c> uses a hash table. 
+ Just as Python provides the dictionary when we want to have easy access to key-value pairs, Java also provides us a similar mechanism. Rather than the dictionary terminology, Java calls these objects Maps. Java provides two different implementations of a map, one is called the <c>TreeMap</c> <idx> TreeMap </idx> and the other is called a <c>HashMap</c>. As you might guess the <c>TreeMap</c> uses a balanced binary tree behind the scenes, and the <c>HashMap</c> <idx> HashMap </idx> uses a hash table. 
         </p>
 
         <p>
